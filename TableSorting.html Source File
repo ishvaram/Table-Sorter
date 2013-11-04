@@ -1,0 +1,825 @@
+<html>
+<head>
+<title>Sorting Data</title>
+<body>
+<div align="float:left" class="design">
+<h1 id="right">JSon Data Table</h1>
+</div>
+<link rel="stylesheet" href="./style.css" type="text/css"/>
+<script type="text/javascript" src="./jquery-latest.js"></script>	
+<script type="text/javascript" src="./__jquery.tablesorter.js"></script>
+<script type="text/javascript" src="./chili-1.8b.js"></script>
+<script type="text/javascript" src="./docs.js"></script>
+<script type="text/javascript" src="./examples.js"></script>
+<script type="text/javascript" id="js">$(document).ready(function() {
+	
+	$("table").tablesorter({
+	
+		sortList: [[0,0],[2,0]]
+	});
+}); 
+</script>
+
+	<div id="demo">
+		<table align="center" style="width:900px;" cellspacing="3" class="tablesorter">
+		<thead align="center">
+        <tr>
+            <th>Doc.ID</th>
+            <th>Phrase</th>
+            <th>Gramsize</th>
+            <th>TF-IDF</th>
+        </tr>
+    </thead>
+<tbody align="center">
+<tr>
+            <td>File 1</td>
+            <td>a load through</td>
+            <td>3.0</td>        
+            <td>1.0</td>
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>a load</td>
+            <td>2.0</td>        
+            <td>1.0</td>
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>a result of</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>a result</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>a right shoulder</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>a right</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>a</td>
+            <td>1.0</td>        
+            <td>3.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>an open window</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>an open</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>an</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>and rotator cuff</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>and rotator</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>and slipped and</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>and slipped</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>and</td>
+            <td>1.0</td>        
+            <td>2.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>as a result</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>as a</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>as</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>carpenter sustained a</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>carpenter sustained</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>carpenter</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>causing the wood</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>causing the</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>causing</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>cuff tear right</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>cuff tear</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>cuff</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>decompression</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>fall on him</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>fall on</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>fall</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>falling on him</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>falling on</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>falling</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>he was passing</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>he was</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>he</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>him he was</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>him he</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>him status post</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>him status</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>him</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>injury as a</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>injury as</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>injury</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>knee meniscal tear</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>knee meniscal</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>knee</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>load through an</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>load through </td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>load</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>meniscal tear causing</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>meniscal tear</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>meniscal</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>o carpentar sustained</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>o carpentar</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>o</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>of plywood falling</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>of plywood</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+
+<tr>
+            <td>File 1</td>
+            <td>of</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+
+<tr>
+            <td>File 1</td>
+            <td>on him he</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>on him status</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>on him</td>
+            <td>2.0</td>        
+            <td>2.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>on</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>open window and</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>open window</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>open</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>passing a load</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>passing a</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>passing</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>plywood falling on</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>plywood falling</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>plywood</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>post right shoulder</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>post right</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>post</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+
+<tr>
+            <td>File 1</td>
+            <td>result of plywood</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>result of</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>result</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>right knee meniscal</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>right knee</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>right shoulder decompression</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>right shoulder injury</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>right shoulder</td>
+            <td>2.0</td>        
+            <td>2.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>right</td>
+            <td>1.0</td>        
+            <td>3.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>rotator cuff tear</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>rotator cuff</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>rotator</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>shoulder decompression</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>shoulder injury as</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>shoulder injury</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>shoulder</td>
+            <td>1.0</td>        
+            <td>2.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>slipped and rotator</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>slipped and</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>slipped</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>status post right</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>status post</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>status</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>sustained a right</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>sustained a</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>sustained</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>tear causing the</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>tear causing</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>tear right knee</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>tear right</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>tear</td>
+            <td>1.0</td>        
+            <td>2.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>the wood to</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>the wood</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>the</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>through an open</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>through an</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>through</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>to fall on</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>to fall</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>to</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>was passing a</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>was passing</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>was</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>window and slipped</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>window and</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>window</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>wood to fall</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>wood to</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>wood</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>y o carpenter</td>
+            <td>3.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>y o</td>
+            <td>2.0</td>        
+            <td>1.0</td>  
+</tr>
+<tr>
+            <td>File 1</td>
+            <td>y</td>
+            <td>1.0</td>        
+            <td>1.0</td>  
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+.design{
+        width: 524px;
+        padding-top: 8px;
+        padding-bottom: 15px;
+        margin: 0 auto 20px auto;
+        background-color: #446bb3;        
+        border-radius: 15px;    
+        -moz-border-radius: 15px;    
+        -webkit-border-radius: 15px;
+        color: #000;
+        padding:10px;
+        height:70px;
+    } 
+#right{
+    position:relative;
+    left:150px;
+    bottom:0px;
+    font-size:30px;
+}   
+</style>
+</body>
+</html>
+
