@@ -6,8 +6,9 @@
 <h1 id="right">JSon Data Table</h1>
 </div>
 <link rel="stylesheet" href="./style.css" type="text/css"/>
-<script type="text/javascript" src="./jquery-latest.js"></script>	
-<script type="text/javascript" src="./__jquery.tablesorter.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>	
+<script type="text/javascript" src="https://cdn.jsdelivr.net/tablesorter/2.17.4/js/jquery.tablesorter.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></li>
 <script type="text/javascript" src="./chili-1.8b.js"></script>
 <script type="text/javascript" src="./docs.js"></script>
 <script type="text/javascript" src="./examples.js"></script>
@@ -21,13 +22,13 @@
 </script>
 
 	<div id="demo">
-		<table align="center" style="width:900px;" cellspacing="3" class="tablesorter">
+		<table align="center" style="width:900px;" cellspacing="3" class="table table-striped table-bordered table-condensed">
 		<thead align="center">
         <tr>
-            <th>Doc.ID</th>
-            <th>Phrase</th>
-            <th>Gramsize</th>
-            <th>TF-IDF</th>
+            <th style="text-align: center;background-color:#3b5998;color: #ccc;">Doc.ID</th>
+            <th style="text-align: center;background-color:#3b5998;color: #ccc;">Phrase</th>
+            <th style="text-align: center;background-color:#3b5998;color: #ccc;">Gramsize</th>
+            <th style="text-align: center;background-color:#3b5998;color: #ccc;">TF-IDF</th>
         </tr>
     </thead>
 <tbody align="center">
